@@ -109,7 +109,7 @@ const studentBenefits = [
             'XD'
         ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg',
-        url: 'https://www.adobe.com/creativecloud/buy/students.html',
+        url: 'https://www.adobe.com/creativecloud/buy/student.html',
         tags: ['diseño', 'edición', 'creatividad', 'profesional', 'descuento'],
         discount: '60% OFF',
         verificationRequired: true
@@ -204,7 +204,7 @@ const studentBenefits = [
             'Soporte multiidioma'
         ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Grammarly_logo.svg',
-        url: 'https://www.grammarly.com/student',
+        url: 'https://www.grammarly.com/premium',
         tags: ['escritura', 'académico', 'productividad', 'inglés', 'descuento'],
         discount: '20% OFF',
         verificationRequired: true
@@ -242,7 +242,7 @@ const studentBenefits = [
             'Acceso móvil'
         ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg',
-        url: 'https://www.coursera.org/students',
+        url: 'https://www.coursera.org/',
         tags: ['educación', 'cursos', 'certificaciones', 'aprendizaje', 'descuento'],
         discount: 'Descuento especial',
         verificationRequired: false
@@ -261,7 +261,7 @@ const studentBenefits = [
             'Soporte prioritario'
         ],
         image: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/LastPass_logo.svg',
-        url: 'https://www.lastpass.com/students',
+        url: 'https://www.lastpass.com/pricing',
         tags: ['seguridad', 'contraseñas', 'privacidad', 'descuento'],
         discount: '50% OFF',
         verificationRequired: true
