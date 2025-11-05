@@ -416,7 +416,12 @@ class VoteRateLimiter {
         const lastVote = userVotes[userVotes.length - 1];
         if (lastVote && now - lastVote.timestamp < 5 * 60 * 1000) {
             const retry = Math.ceil((5 * 60 * 1000 - (now - lastVote.timestamp)) / 1000);
-            return { allowed: false, reason: 'cooldown', retry };
+            return { allowed: false, reason: 'cooldown', return {
+                    allowed: false,
+                    reason: 'cooldown',
+                    retry: retry
+                };
+            };
         }
         
         return { allowed: true };
